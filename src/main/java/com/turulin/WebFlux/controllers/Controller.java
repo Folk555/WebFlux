@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono;
 
 import java.time.Duration;
 
-@RestController
+@org.springframework.stereotype.Controller
 public class Controller {
     @GetMapping("/hello")
     @ResponseBody
